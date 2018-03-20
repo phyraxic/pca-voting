@@ -9,12 +9,17 @@ There are a few tools here assist with scheduling:
 ## calcConflict.js
 This takes a set of user surveys, and a proposed schedule, and calculates how many conflicts occur.
 
-C:\PCA>node calcConflict.js sampledata.csv sampleschedule.csv
-Total Conflicts: 182
-Users with 0 conflicts: 73
-Users with 1 conflicts: 98
-Users with 2 conflicts: 36
-Users with 3 conflicts: 4
+`C:\PCA>node calcConflict.js sampledata.csv sampleschedule.csv`
+
+`Total Conflicts: 182`
+
+`Users with 0 conflicts: 73`
+
+`Users with 1 conflicts: 98`
+
+`Users with 2 conflicts: 36`
+
+`Users with 3 conflicts: 4`
 
 ## mostConflicts.js
 This takes a set of user surveys (and a list of the top 25 surveys for simplicity) and calculates the top combinations of sessions that attendees want to attend.
